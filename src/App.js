@@ -20,14 +20,14 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="grid">
       <div>
-        <div>
-          <img src={profilePic} alt="profile pic" />
-          <p>Report for</p>
-          <h2>Jeremy Robson</h2>
+        <div className="profile">
+          <img className="profile__img" src={profilePic} alt="profile pic" />
+          <span>Report for</span>
+          <h2 className="profile__name">Jeremy Robson</h2>
         </div>
-        <div>
+        <div className="time-options">
           <button type="button">Daily</button>
           <button type="button">Weekly</button>
           <button type="button">Monthly</button>
