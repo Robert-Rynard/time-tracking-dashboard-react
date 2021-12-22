@@ -30,7 +30,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   place-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 4rem 1rem;
 }
 
@@ -85,6 +85,7 @@ body {
 }
 
 .time-options > *:hover {
+  cursor: pointer;
   color: hsl(250, 100%, 91%);
 }
 
